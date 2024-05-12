@@ -7,7 +7,7 @@ function Header() {
         <div className="w-full shadow-md shadow-primary-blue">
             <header className="flex items-center justify-between w-full h-16 px-2 mx-auto max-w-screen-xl">
                 <div className="flex items-center gap-4">
-                    <img src="src\assets\Vector.png" alt="" />
+                    <img src="src\assets\Vector.png" alt="simbol" />
                     <p className="text-primary-blue font-medium text-xl">Portfólio</p>
                 </div>
                 <ul className="md:flex md:items-center md:gap-6 hidden">

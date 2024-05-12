@@ -23,7 +23,7 @@ function Home() {
                 </div>
             </div>
             <div className="flex md:justify-center md:w-1/2 justify-center">
-                <img className="md:w-1/2 w-3/5" src="src\assets\perfil.png" alt="" />
+                <img className="md:w-1/2 w-3/5" src="src\assets\perfil.png" alt="perfil" />
             </div>
         </section>
      );
