@@ -1,5 +1,6 @@
 import { useState } from "react"
 import Header from "./components/Header"
+import Home from "./components/Home"
 import { Switch } from "@material-tailwind/react"
 
 function App() {
@@ -11,9 +12,14 @@ function App() {
 
   return (
     <div className={`font-firaCode ${darkMode && "dark"}`}>
-      <div className="dark:bg-primary-dark">
+      <div className="dark:bg-primary-dark h-screen overflow-x-hidden">
         <Header/>
-        <Switch className="" defaultChecked onClick={toggleDarkMode}/>
+        <div className="flex justify-end pt-3 px-6">
+          <Switch className="" defaultChecked onClick={toggleDarkMode}/>
+        </div>
+        <main>
+          <Home/>
+        </main>
       </div>
     </div>
   )
