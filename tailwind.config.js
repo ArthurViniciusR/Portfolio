@@ -12,6 +12,7 @@ export default withMT({
       colors:{
         "primary-blue": "#0085FF",
         "primary-dark": "#303030",
+        "secondary-dark": "#1E1E1E",
         "primary-light": "#CFCFCF"
       },
       fontFamily:{
@@ -19,7 +20,9 @@ export default withMT({
       }
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwindcss-animated'),
+  ],
   darkMode: 'class',
 })
 
