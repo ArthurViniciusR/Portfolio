@@ -16,7 +16,7 @@ function Projects() {
 
     return ( 
         <section id="projects" className="pt-10 slider-container">
-            <h2 className="text-center dark:text-white text-xl font-bold my-10">Projects</h2>
+            <h2 className="text-center dark:text-white text-xl font-bold my-10">Projetos</h2>
             <Slider {...settings}>
                 <div>
                     <ProjectCard/>

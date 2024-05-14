@@ -1,6 +1,5 @@
 import {
     Card,
-    CardHeader,
     CardBody,
     CardFooter,
     Typography,
@@ -23,7 +22,7 @@ import {
                 </Typography>
                 </CardBody>
                 <CardFooter className="pt-0">
-                <Button className="bg-primary-blue">Read More</Button>
+                <Button className="bg-primary-blue">Ver Projeto</Button>
                 </CardFooter>
             </Card>
     );

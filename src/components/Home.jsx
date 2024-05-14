@@ -6,7 +6,7 @@ function Home() {
             <section id="home" className="dark:bg-primary-dark dark:text-white md:flex md:items-center w-full mt-5">
                 <div className="flex flex-col gap-5 md:mx-auto p-5 animate-fade-right">
                     <p className="md:text-lg text-base font-medium">Arthur Vinícius</p>
-                    <h1 className="text-primary-blue md:text-4xl text-3xl font-semibold">Full Stack Developer</h1>
+                    <h1 className="text-primary-blue md:text-4xl text-3xl font-semibold">Desenvolvedor Full Stack</h1>
                     <p className="md:text-base text-sm">dev.artthur@gmail.com</p>
                     <div className="flex gap-2">
                         <a  href="https://github.com/ArthurViniciusR " target="_blank">

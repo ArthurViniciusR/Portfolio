@@ -12,19 +12,19 @@ function Header() {
                 </div>
                 <ul className="md:flex md:items-center md:gap-6 hidden">
                     <li className="hover:text-primary-blue text-sm hover:font-semibold dark:text-white dark:hover:text-primary-blue">
-                        <a href="/">Home</a>
+                        <a href="/">Início</a>
                     </li>
                     <li className="hover:text-primary-blue text-sm hover:font-semibold dark:text-white dark:hover:text-primary-blue">
-                        <a href="#about">About</a>
+                        <a href="#about">Sobre</a>
                     </li>
                     <li className="hover:text-primary-blue text-sm hover:font-semibold dark:text-white dark:hover:text-primary-blue">
-                        <a href="#qualifications">Qualifications</a>
+                        <a href="#qualifications">Qualificações</a>
                     </li>
                     <li className="hover:text-primary-blue text-sm hover:font-semibold dark:text-white dark:hover:text-primary-blue">
-                        <a href="#skills">Skills</a>
+                        <a href="#skills">Habilidades</a>
                     </li>
                     <li className="hover:text-primary-blue text-sm hover:font-semibold dark:text-white dark:hover:text-primary-blue">
-                        <a href="#projects">Projects</a>
+                        <a href="#projects">Projetos</a>
                     </li>
                 </ul>
                 <Menu className="md:hidden">
@@ -35,10 +35,10 @@ function Header() {
                     </MenuHandler>
                     <MenuList className="md:hidden text-primary-blue">
                     <a href="/"><MenuItem>Home</MenuItem></a>
-                    <a href="#about"><MenuItem>About</MenuItem></a>
-                    <a href="#qualifications"><MenuItem>Qualifications</MenuItem></a>
-                    <a href="#skills"><MenuItem>Skills</MenuItem></a>
-                    <a href="#projects"><MenuItem>Projects</MenuItem></a>
+                    <a href="#about"><MenuItem>Sobre</MenuItem></a>
+                    <a href="#qualifications"><MenuItem>Qualificações</MenuItem></a>
+                    <a href="#skills"><MenuItem>Habilidades</MenuItem></a>
+                    <a href="#projects"><MenuItem>Projetos</MenuItem></a>
                     </MenuList>
                 </Menu>
             </header>

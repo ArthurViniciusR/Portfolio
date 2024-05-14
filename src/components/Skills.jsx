@@ -4,7 +4,7 @@ import TechCard from "./TechCard";
 function Skills() {
     return (
         <section id="skills" className="pt-8">
-            <h2 className="text-center dark:text-white text-xl font-bold my-10">Skills</h2>
+            <h2 className="text-center dark:text-white text-xl font-bold my-10">Habilidades</h2>
             <div className="grid md:grid-cols-3 grid-cols-2 gap-8 w-4/5 mx-auto">
                 <TechCard img="src\assets\html.png" name={"HTML"}/>
                 <TechCard img="src\assets\css.png" name={"CSS"}/>
