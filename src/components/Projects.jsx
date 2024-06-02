@@ -1,34 +1,38 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import { Carousel } from "@material-tailwind/react";
+
 
 function Projects() {
-
-    var settings = {
-        dots: false,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 3,
-        slidesToScroll: 4,
-      };
 
     return ( 
         <section id="projects" className="pt-10 slider-container">
             <h2 className="text-center dark:text-white text-xl font-bold my-10">Projetos</h2>
-            <Slider {...settings}>
-                <div>
-                    <ProjectCard/>
-                </div>
-                <div>
-                    <ProjectCard/>
-                </div>
-                <div>
-                    <ProjectCard/>
-                </div>
-            </Slider>
-            
+
+            <Carousel>
+
+                    <ProjectCard
+                        name="Landing Page"
+                        desc="landing page simples utilizando fundamentos de html, css e js"
+                        img="src\assets\landing1.png"
+                        link="https://github.com/ArthurViniciusR/LadingPage"
+                    />
+                    <ProjectCard
+                        name="Landing Page 2"
+                        desc="landing page temática de anime utilizando html e css"
+                        img="src\assets\landing2.png"
+                        link="https://github.com/ArthurViniciusR/LadingPageSNK"
+                    />
+                    <ProjectCard
+                        name="Futuros Projetos"
+                        desc="Acompanhe e aguarde para novos projetos"
+                        img="src\assets\breve.png"
+                        link="https://www.linkedin.com/in/arthurviniciusr/"
+                    />
+                    
+                
+            </Carousel>
+
         </section>
      );
 }
