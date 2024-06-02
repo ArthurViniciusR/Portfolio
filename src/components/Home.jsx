@@ -27,7 +27,7 @@ function Home() {
                     <img className="md:w-1/2 w-3/5 animate-fade-up" src="src/images/perfil.png" alt="perfil" />
                 </div>
             </section>
-            <img className ="w-8 my-16 mx-auto animate-bounce animate-duration-[1500ms]"src="../assets/arrows.png" alt="" />
+            <img className ="w-8 my-16 mx-auto animate-bounce animate-duration-[1500ms]"src="src/images/arrows.png" alt="" />
         </div>
      );
 }
