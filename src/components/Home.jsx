@@ -24,7 +24,7 @@ function Home() {
                     </div>
                 </div>
                 <div className="flex md:justify-center md:w-1/2 justify-center">
-                    <img className="md:w-1/2 w-3/5 animate-fade-up" src="../assets/perfil.png" alt="perfil" />
+                    <img className="md:w-1/2 w-3/5 animate-fade-up" src="src/images/perfil.png" alt="perfil" />
                 </div>
             </section>
             <img className ="w-8 my-16 mx-auto animate-bounce animate-duration-[1500ms]"src="../assets/arrows.png" alt="" />
