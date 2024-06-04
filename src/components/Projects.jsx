@@ -14,19 +14,19 @@ function Projects() {
                     <ProjectCard
                         name="Landing Page"
                         desc="landing page simples utilizando fundamentos de html, css e js"
-                        img="src/images/landing1.png"
+                        img="https://i.im.ge/2024/06/04/KmCGI6.landing1.png"
                         link="https://github.com/ArthurViniciusR/LadingPage"
                     />
                     <ProjectCard
                         name="Landing Page 2"
                         desc="landing page temática de anime utilizando html e css"
-                        img="src/images/landing2.png"
+                        img="https://i.im.ge/2024/06/04/KmETd9.landing2.png"
                         link="https://github.com/ArthurViniciusR/LadingPageSNK"
                     />
                     <ProjectCard
                         name="Futuros Projetos"
                         desc="Acompanhe e aguarde para novos projetos"
-                        img="src/images/breve.png"
+                        img="https://i.im.ge/2024/06/04/KmCn8S.breve.png"
                         link="https://www.linkedin.com/in/arthurviniciusr/"
                     />
                     
