@@ -1,12 +1,24 @@
-import React from "react";
+import axios from "axios";
+import React, { useEffect, useState } from "react";
 
 function Home() {
+
+    const [image, setImage] = useState("")
+
+    useEffect(() => {
+        axios
+            .get('https://api.github.com/users/arthurviniciusr')
+            .then((res) =>{
+                setImage(res.data.avatar_url)
+            })
+    }, [])
+
     return (
         <div>
             <section id="home" className="dark:bg-primary-dark dark:text-white md:flex md:items-center w-full mt-5">
                 <div className="flex flex-col gap-5 md:mx-auto p-5 animate-fade-right">
                     <p className="md:text-lg text-base font-medium">Arthur Vinícius</p>
-                    <h1 className="text-primary-blue md:text-4xl text-3xl font-semibold">Desenvolvedor Full Stack</h1>
+                    <h1 className="text-primary-blue md:text-4xl text-3xl font-semibold">Desenvolvedor Web</h1>
                     <p className="md:text-base text-sm">dev.artthur@gmail.com</p>
                     <div className="flex gap-2">
                         <a  href="https://github.com/ArthurViniciusR " target="_blank" rel="noopener noreferrer">
@@ -24,7 +36,7 @@ function Home() {
                     </div>
                 </div>
                 <div className="flex md:justify-center md:w-1/2 justify-center">
-                    <img className="md:w-1/2 w-3/5 animate-fade-up" src="https://i.im.ge/2024/06/04/KmCxSP.perfil.png" alt="perfil" />
+                    <img className="md:w-2/5 w-1/2 rounded-full border-4 border-primary-blue animate-fade-up" src={image} alt="perfil" />
                 </div>
             </section>
             <img className ="w-8 my-16 mx-auto animate-bounce animate-duration-[1500ms]"src="https://i.im.ge/2024/06/04/KmCWM0.arrows.png" alt="" />

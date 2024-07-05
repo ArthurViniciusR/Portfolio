@@ -13,7 +13,7 @@ function Skills() {
                 <TechCard img="https://i.im.ge/2024/06/04/KmEwPG.tailwind.png" name={"TAILWIND"}/>
                 <TechCard img="https://i.im.ge/2024/06/04/KmE6kx.ts.png" name={"TYPESCRIPT"}/>
                 <TechCard img="https://i.im.ge/2024/06/04/KmEiQW.node.png" name={"NODE"}/>
-                <TechCard img="https://i.im.ge/2024/06/04/KmE53T.nest.png" name={"NEST"}/>
+                <TechCard img="https://i.im.ge/2024/07/05/VIJPiW.image-10.png" name={"POSTGRESS"}/>
                 <TechCard img="https://i.im.ge/2024/06/04/KmERF8.image-8.png" name={"MONGO DB"}/>
             </div>
         </section>

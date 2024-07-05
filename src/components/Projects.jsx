@@ -24,6 +24,12 @@ function Projects() {
                         link="https://github.com/ArthurViniciusR/LadingPageSNK"
                     />
                     <ProjectCard
+                        name="Notes API Rest"
+                        desc="rest api (backend) de um sistema de anotações"
+                        img="https://i.im.ge/2024/07/05/VIJWcz.Component-3-1.png"
+                        link="https://github.com/ArthurViniciusR/NotesBack"
+                    />
+                    <ProjectCard
                         name="Futuros Projetos"
                         desc="Acompanhe e aguarde para novos projetos"
                         img="https://i.im.ge/2024/06/04/KmCn8S.breve.png"
